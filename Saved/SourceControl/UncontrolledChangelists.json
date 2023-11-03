@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/Input/IAM_Actions.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/Components/BPC_CombatStateManager.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset",
 				"C:/Users/tommy/Desktop/cs415/BasicMultiplayerMeleeComb/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset"
 			]
 		}
