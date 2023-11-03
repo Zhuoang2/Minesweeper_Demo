@@ -1645,3 +1645,285 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.11.03-21.16.29:749][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 884 ms)
 [2023.11.03-21.16.29:757][658]AssetCheck: New page: 资产保存：BPW_PlayerStatus
 [2023.11.03-21.16.29:757][658]LogContentValidation: Display: 正在验证/Script/UMGEditor.WidgetBlueprint /Game/BMMCSystem/Blueprints/UI/BPW_PlayerStatus.BPW_PlayerStatus
+[2023.11.03-21.18.36:580][172]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.11.03-21.18.37:854][248]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2023.11.03-21.19.04:616][798]BlueprintLog: New page: 编译BP_MainCharacter
+[2023.11.03-21.19.04:723][798]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.11.03-21.19.06:281][877]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.11.03-21.19.06:288][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.03-21.19.06:288][877]PIE: New page: PIE会话：MultiplayerArena（2023年11月3日 上午11:19:06）
+[2023.11.03-21.19.06:288][877]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.19.06:296][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008047s)
+[2023.11.03-21.19.06:296][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.008077s)
+[2023.11.03-21.19.06:297][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-21.19.06:297][877]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.03-21.19.06:297][877]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.11.03-21.19.06:297][877]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2023.11.03-21.19.06:323][877]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.11.03-21.19.06:327][877]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.11.03-21.19.06:327][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.03-21.19.06:327][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.03-21.19.06:327][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.03-21.19.06:327][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.03-21.19.06:327][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.03-21.19.06:327][877]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.03-21.19.06:327][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.03-21.19.06:327][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.03-21.19.06:327][877]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.03-21.19.06:328][877]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.03-21.19.06:328][877]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.03-21.19.06:329][877]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.03-21.19.06:355][877]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Steam Streaming Microphone)
+[2023.11.03-21.19.06:356][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.03-21.19.06:356][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.03-21.19.06:356][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.03-21.19.06:356][877]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.11.03-21.19.06:356][877]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.11.03-21.19.06:357][877]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.11.03-21.19.06:357][877]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.11.03-21.19.06:357][877]LogInit: FAudioDevice initialized with ID 7.
+[2023.11.03-21.19.06:357][877]LogAudio: Display: Audio Device (ID: 7) registered with world 'MultiplayerArena'.
+[2023.11.03-21.19.06:357][877]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.11.03-21.19.06:361][877]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.11.03-21.19.06:363][877]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.11.03-16.19.06
+[2023.11.03-21.19.06:364][877]LogWorld: Bringing up level for play took: 0.002405
+[2023.11.03-21.19.06:365][877]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2023.11.03-21.19.06:368][877]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.19.06:368][877]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.19.06:368][877]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.19.06:368][877]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.19.06:369][877]PIE: 登陆的服务器
+[2023.11.03-21.19.06:369][877]PIE: PIE总开始时间：0.082秒。
+[2023.11.03-21.19.40:742][930]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2023.11.03-21.19.40:742][930]LogGameState: Match State Changed from InProgress to LeavingMap
+[2023.11.03-21.19.40:742][930]LogNet: Browse: /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena
+[2023.11.03-21.19.40:742][930]LogLoad: LoadMap: /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena
+[2023.11.03-21.19.40:742][930]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.19.40:744][930]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.11.03-21.19.40:745][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.19.40:827][930]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.03-21.19.40:833][930]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.11.03-21.19.40:836][930]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.19.40:844][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007925s)
+[2023.11.03-21.19.40:844][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.007973s)
+[2023.11.03-21.19.40:844][930]LogAudio: Display: Audio Device (ID: 7) registered with world 'MultiplayerArena'.
+[2023.11.03-21.19.40:844][930]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-21.19.40:844][930]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.03-21.19.40:845][930]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.11.03-21.19.40:845][930]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2023.11.03-21.19.40:845][930]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.11.03-21.19.40:847][930]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.11.03-16.19.40
+[2023.11.03-21.19.40:847][930]LogWorld: Bringing up level for play took: 0.001943
+[2023.11.03-21.19.40:849][930]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.19.40:849][930]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.19.40:849][930]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.19.40:851][930]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.19.40:851][930]LogLoad: Took 0.108139 seconds to LoadMap(/Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena)
+[2023.11.03-21.19.42:300][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.03-21.19.42:300][ 15]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.19.42:300][ 15]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.11.03-21.19.42:301][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.19.42:308][ 15]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.03-21.19.42:316][ 15]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.19.42:346][ 15]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.03-21.19.42:347][ 15]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.11.03-21.19.42:347][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.11.03-21.19.42:349][ 15]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.11.03-21.19.42:354][ 15]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2023.11.03-21.19.42:389][ 16]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2023.11.03-21.20.35:059][ 34]BlueprintLog: New page: 编译BP_MainCharacter
+[2023.11.03-21.20.35:168][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.11.03-21.20.36:388][ 93]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.11.03-21.20.36:419][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.03-21.20.36:419][ 93]PIE: New page: PIE会话：MultiplayerArena（2023年11月3日 上午11:20:36）
+[2023.11.03-21.20.36:419][ 93]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.20.36:432][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013311s)
+[2023.11.03-21.20.36:432][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.013351s)
+[2023.11.03-21.20.36:432][ 93]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-21.20.36:432][ 93]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.03-21.20.36:433][ 93]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.11.03-21.20.36:433][ 93]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2023.11.03-21.20.36:462][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.03-21.20.36:466][ 93]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.11.03-21.20.36:466][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.03-21.20.36:466][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.03-21.20.36:466][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.03-21.20.36:466][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.03-21.20.36:466][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.03-21.20.36:466][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.03-21.20.36:466][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.03-21.20.36:466][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.03-21.20.36:466][ 93]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.03-21.20.36:466][ 93]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.03-21.20.36:466][ 93]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.03-21.20.36:469][ 93]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.03-21.20.36:493][ 93]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Steam Streaming Microphone)
+[2023.11.03-21.20.36:493][ 93]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.03-21.20.36:493][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.03-21.20.36:493][ 93]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.03-21.20.36:494][ 93]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.11.03-21.20.36:494][ 93]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.11.03-21.20.36:495][ 93]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.11.03-21.20.36:495][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.11.03-21.20.36:495][ 93]LogInit: FAudioDevice initialized with ID 8.
+[2023.11.03-21.20.36:495][ 93]LogAudio: Display: Audio Device (ID: 8) registered with world 'MultiplayerArena'.
+[2023.11.03-21.20.36:495][ 93]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2023.11.03-21.20.36:499][ 93]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.11.03-21.20.36:502][ 93]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.11.03-16.20.36
+[2023.11.03-21.20.36:502][ 93]LogWorld: Bringing up level for play took: 0.003643
+[2023.11.03-21.20.36:506][ 93]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2023.11.03-21.20.36:510][ 93]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.20.36:510][ 93]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.20.36:510][ 93]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.20.36:511][ 93]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.20.36:511][ 93]PIE: 登陆的服务器
+[2023.11.03-21.20.36:512][ 93]PIE: PIE总开始时间：0.093秒。
+[2023.11.03-21.20.43:168][489]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: 输入“”为空。
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: ================================================
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: Total job queries 90, among them cache hits 21 (23.33%)
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: Tracking 69 distinct input hashes that result in 52 distinct outputs (75.36%)
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: RAM used: 166.32 KiB of 1.60 GiB budget. Usage: 0.01%
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.11.03-21.20.43:250][490]LogShaderCompilers: Display: ================================================
+[2023.11.03-21.20.43:280][491]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-21.20.44:193][544]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.11.03-21.21.06:812][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.03-21.21.06:812][895]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.21.06:813][895]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.11.03-21.21.06:815][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.21.06:834][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.03-21.21.06:839][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.21.06:869][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.03-21.21.06:872][895]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2023.11.03-21.21.06:872][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.03-21.21.06:874][895]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.11.03-21.21.06:884][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.11.03-21.21.06:933][896]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2023.11.03-21.24.39:759][305]BlueprintLog: New page: 编译BP_MainCharacter
+[2023.11.03-21.24.39:877][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.11.03-21.24.45:341][622]BlueprintLog: New page: 编译BP_MainCharacter
+[2023.11.03-21.24.45:457][622]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2023.11.03-21.24.46:654][678]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.11.03-21.24.46:686][678]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.03-21.24.46:686][678]PIE: New page: PIE会话：MultiplayerArena（2023年11月3日 上午11:24:46）
+[2023.11.03-21.24.46:718][678]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.24.46:730][678]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011892s)
+[2023.11.03-21.24.46:730][678]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.011967s)
+[2023.11.03-21.24.46:730][678]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-21.24.46:730][678]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.03-21.24.46:731][678]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.11.03-21.24.46:731][678]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2023.11.03-21.24.46:756][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2023.11.03-21.24.46:761][678]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.11.03-21.24.46:761][678]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.03-21.24.46:761][678]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.03-21.24.46:761][678]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.03-21.24.46:761][678]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.03-21.24.46:761][678]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.03-21.24.46:761][678]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.03-21.24.46:761][678]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.03-21.24.46:761][678]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.03-21.24.46:762][678]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.03-21.24.46:762][678]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.03-21.24.46:762][678]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.03-21.24.46:764][678]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.03-21.24.46:790][678]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Steam Streaming Microphone)
+[2023.11.03-21.24.46:790][678]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.03-21.24.46:790][678]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.03-21.24.46:790][678]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.03-21.24.46:791][678]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.11.03-21.24.46:791][678]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.11.03-21.24.46:792][678]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.11.03-21.24.46:792][678]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.11.03-21.24.46:792][678]LogInit: FAudioDevice initialized with ID 9.
+[2023.11.03-21.24.46:792][678]LogAudio: Display: Audio Device (ID: 9) registered with world 'MultiplayerArena'.
+[2023.11.03-21.24.46:792][678]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2023.11.03-21.24.46:796][678]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.11.03-21.24.46:798][678]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.11.03-16.24.46
+[2023.11.03-21.24.46:798][678]LogWorld: Bringing up level for play took: 0.002773
+[2023.11.03-21.24.46:801][678]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2023.11.03-21.24.46:804][678]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.24.46:804][678]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.24.46:804][678]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.24.46:805][678]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.24.46:805][678]PIE: 登陆的服务器
+[2023.11.03-21.24.46:806][678]PIE: PIE总开始时间：0.119秒。
+[2023.11.03-21.25.10:651][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.03-21.25.10:651][103]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.25.10:653][103]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.11.03-21.25.10:654][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.25.10:674][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.03-21.25.10:682][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.25.10:709][103]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.03-21.25.10:709][103]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2023.11.03-21.25.10:709][103]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.11.03-21.25.10:710][103]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.11.03-21.25.10:714][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.03-21.25.10:721][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.11.03-21.25.10:769][104]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2023.11.03-21.25.16:697][393]BlueprintLog: New page: 编译BP_MainCharacter
+[2023.11.03-21.25.16:806][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.11.03-21.25.17:930][445]LogDebuggerCommands: Repeating last play command: 选中的视口
+[2023.11.03-21.25.17:962][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.11.03-21.25.17:962][445]PIE: New page: PIE会话：MultiplayerArena（2023年11月3日 上午11:25:17）
+[2023.11.03-21.25.17:962][445]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.25.17:972][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009961s)
+[2023.11.03-21.25.17:972][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.009999s)
+[2023.11.03-21.25.17:972][445]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.11.03-21.25.17:972][445]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.11.03-21.25.17:973][445]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.11.03-21.25.17:973][445]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2023.11.03-21.25.17:999][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.11.03-21.25.18:006][445]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.11.03-21.25.18:006][445]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.11.03-21.25.18:006][445]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.11.03-21.25.18:006][445]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.11.03-21.25.18:006][445]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.11.03-21.25.18:006][445]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.11.03-21.25.18:006][445]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.11.03-21.25.18:006][445]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.11.03-21.25.18:006][445]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.11.03-21.25.18:006][445]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.11.03-21.25.18:006][445]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.11.03-21.25.18:006][445]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.11.03-21.25.18:008][445]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.11.03-21.25.18:034][445]LogAudioMixer: Display: Using Audio Hardware Device 扬声器 (Steam Streaming Microphone)
+[2023.11.03-21.25.18:035][445]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.11.03-21.25.18:035][445]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.11.03-21.25.18:035][445]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.11.03-21.25.18:035][445]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.11.03-21.25.18:035][445]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.11.03-21.25.18:037][445]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.11.03-21.25.18:037][445]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.11.03-21.25.18:037][445]LogInit: FAudioDevice initialized with ID 10.
+[2023.11.03-21.25.18:037][445]LogAudio: Display: Audio Device (ID: 10) registered with world 'MultiplayerArena'.
+[2023.11.03-21.25.18:037][445]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2023.11.03-21.25.18:040][445]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.11.03-21.25.18:042][445]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.11.03-16.25.18
+[2023.11.03-21.25.18:043][445]LogWorld: Bringing up level for play took: 0.002523
+[2023.11.03-21.25.18:044][445]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2023.11.03-21.25.18:047][445]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.25.18:047][445]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.11.03-21.25.18:047][445]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.25.18:048][445]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.11.03-21.25.18:048][445]PIE: 登陆的服务器
+[2023.11.03-21.25.18:048][445]PIE: PIE总开始时间：0.086秒。
+[2023.11.03-21.25.45:791][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.03-21.25.45:791][104]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.11.03-21.25.45:793][104]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.11.03-21.25.45:795][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.25.45:803][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.11.03-21.25.45:812][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.11.03-21.25.45:844][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.11.03-21.25.45:845][104]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2023.11.03-21.25.45:845][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.03-21.25.45:847][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.11.03-21.25.45:850][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.11.03-21.25.45:859][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.11.03-21.25.45:902][105]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2023.11.03-21.26.03:080][956]BlueprintLog: New page: 编译BP_MainCharacter
+[2023.11.03-21.26.03:191][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
