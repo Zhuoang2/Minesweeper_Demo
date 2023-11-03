@@ -8,6 +8,9 @@
 				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/Input/IAM_Actions.uasset",
 				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/Components/BPC_CombatStateManager.uasset",
 				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/Utilities/BFL_ComponentUtilities.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/GameModes/Multiplayer/BP_PlayerController_MultiPlayer.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/UI/BPW_PlayerStatus.uasset",
 				"C:/Users/tommy/Desktop/cs415/BasicMultiplayerMeleeComb/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset"
 			]
 		}
