@@ -11,6 +11,10 @@
 				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/Utilities/BFL_ComponentUtilities.uasset",
 				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/GameModes/Multiplayer/BP_PlayerController_MultiPlayer.uasset",
 				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Blueprints/UI/BPW_PlayerStatus.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/abilities/IA_firebowl.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/abilities/IA_fire.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/abilities/fireball.uasset",
+				"E:/Software/UE_5.2/Unreal Projects/Topdowngame/Content/BMMCSystem/Maps/Multiplayer/MultiplayerArena.umap",
 				"C:/Users/tommy/Desktop/cs415/BasicMultiplayerMeleeComb/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset"
 			]
 		}
