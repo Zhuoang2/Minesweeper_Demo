@@ -25441,3 +25441,1506 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.05-11.21.25:532][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
 [2023.12.05-11.21.25:658][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
 [2023.12.05-11.21.25:679][935]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.12.05-11.22.48:873][158]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.22.49:270][158]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Components/BPC_CombatStateManager
+[2023.12.05-11.22.49:270][158]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BPC_CombatStateManagerE1BC403F49B94EBA93C483BCE793FE23.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Components/BPC_CombatStateManager.uasset'
+[2023.12.05-11.22.49:284][158]LogFileHelpers: InternalPromptForCheckoutAndSave took 411 ms (total: 10.1 sec)
+[2023.12.05-11.22.49:292][158]AssetCheck: New page: Asset Save: BPC_CombatStateManager
+[2023.12.05-11.22.49:292][158]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Components/BPC_CombatStateManager.BPC_CombatStateManager
+[2023.12.05-11.22.52:395][344]BlueprintLog: New page: Compile BPC_CombatStateManager
+[2023.12.05-11.22.53:346][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2023.12.05-11.22.54:780][410]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.22.54:787][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.05-11.22.54:787][410]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:22:54)
+[2023.12.05-11.22.54:787][410]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.22.54:793][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005744s)
+[2023.12.05-11.22.54:793][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.005778s)
+[2023.12.05-11.22.54:793][410]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.22.54:793][410]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.22.54:793][410]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.22.54:793][410]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2023.12.05-11.22.54:819][410]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.12.05-11.22.54:826][410]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2023.12.05-11.22.54:826][410]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.22.54:826][410]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.22.54:826][410]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.22.54:826][410]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.22.54:826][410]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.22.54:826][410]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.22.54:826][410]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.22.54:826][410]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.22.54:826][410]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.22.54:826][410]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.22.54:826][410]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.22.54:827][410]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.22.55:002][410]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.22.55:003][410]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.22.55:003][410]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.22.55:003][410]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.22.55:004][410]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2023.12.05-11.22.55:004][410]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2023.12.05-11.22.55:005][410]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2023.12.05-11.22.55:005][410]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2023.12.05-11.22.55:005][410]LogInit: FAudioDevice initialized with ID 15.
+[2023.12.05-11.22.55:005][410]LogAudio: Display: Audio Device (ID: 15) registered with world 'MultiplayerArena'.
+[2023.12.05-11.22.55:005][410]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.05-11.22.55:048][410]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.22.55:049][410]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.22.55:051][410]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.22.55
+[2023.12.05-11.22.55:052][410]LogWorld: Bringing up level for play took: 0.002423
+[2023.12.05-11.22.55:053][410]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2023.12.05-11.22.55:057][410]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.22.55:057][410]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.22.55:057][410]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.22.55:058][410]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.22.55:066][410]PIE: Server logged in
+[2023.12.05-11.22.55:077][410]PIE: Play in editor total start time 0.29 seconds.
+[2023.12.05-11.22.55:097][410]LogViewport: Scene viewport resized to 1645x1290, mode Windowed.
+[2023.12.05-11.23.05:067][  3]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:069][  3]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.05:084][  4]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:101][  5]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:117][  6]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:134][  7]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:151][  8]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:168][  9]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:185][ 10]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:201][ 11]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.05:218][ 12]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:058][ 61]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.23.06:795][105]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:812][106]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:829][107]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:845][108]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:861][109]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:879][110]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:895][111]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:911][112]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:928][113]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:945][114]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.06:961][115]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.07:783][164]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.23.09:851][288]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:867][289]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:883][290]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:899][291]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:917][292]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:933][293]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:950][294]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:966][295]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:983][296]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.09:999][297]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.10:052][300]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.10:069][301]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.10:152][306]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.10:202][309]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.10:840][347]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.23.12:056][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.23.12:057][417]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.23.12:057][417]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.23.12:073][417]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.23.12:074][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.23.12:076][417]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.23.12:082][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.23.12:109][417]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.05-11.23.12:110][417]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2023.12.05-11.23.12:110][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.05-11.23.12:112][417]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2023.12.05-11.23.12:210][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2023.12.05-11.23.12:237][418]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2023.12.05-11.23.15:970][566]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.23.15:974][566]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.05-11.23.15:974][566]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:23:15)
+[2023.12.05-11.23.15:976][566]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.23.15:981][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005328s)
+[2023.12.05-11.23.15:981][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.005364s)
+[2023.12.05-11.23.15:981][566]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.23.15:981][566]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.23.15:981][566]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.23.15:982][566]LogPlayLevel: PIE: World Init took: (0.000672s)
+[2023.12.05-11.23.16:004][566]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.12.05-11.23.16:006][566]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2023.12.05-11.23.16:006][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.23.16:006][566]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.23.16:006][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.23.16:006][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.23.16:006][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.23.16:006][566]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.23.16:006][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.23.16:006][566]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.23.16:006][566]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.23.16:006][566]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.23.16:006][566]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.23.16:008][566]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.23.16:186][566]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.23.16:186][566]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.23.16:186][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.23.16:186][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.23.16:187][566]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2023.12.05-11.23.16:187][566]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2023.12.05-11.23.16:188][566]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2023.12.05-11.23.16:188][566]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2023.12.05-11.23.16:188][566]LogInit: FAudioDevice initialized with ID 16.
+[2023.12.05-11.23.16:188][566]LogAudio: Display: Audio Device (ID: 16) registered with world 'MultiplayerArena'.
+[2023.12.05-11.23.16:188][566]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2023.12.05-11.23.16:235][566]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.23.16:235][566]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.23.16:236][566]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.23.16
+[2023.12.05-11.23.16:237][566]LogWorld: Bringing up level for play took: 0.001640
+[2023.12.05-11.23.16:239][566]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2023.12.05-11.23.16:244][566]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.23.16:244][566]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.23.16:244][566]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.23.16:245][566]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.23.16:254][566]PIE: Server logged in
+[2023.12.05-11.23.16:265][566]PIE: Play in editor total start time 0.29 seconds.
+[2023.12.05-11.23.16:283][566]LogViewport: Scene viewport resized to 1648x1310, mode Windowed.
+[2023.12.05-11.23.27:532][235]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.27:549][236]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.27:566][237]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.27:583][238]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.27:650][242]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.27:650][242]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.28:516][294]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.23.30:369][405]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:385][406]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:401][407]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:419][408]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:435][409]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:452][410]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:469][411]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:485][412]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:502][413]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:519][414]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:534][415]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:552][416]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.30:569][417]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:022][444]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:037][445]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:055][446]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:071][447]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:088][448]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:104][449]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:122][450]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:138][451]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:155][452]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:172][453]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:191][454]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:361][464]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.23.31:476][471]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:477][471]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.31:493][472]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:493][472]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.31:509][473]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:526][474]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:542][475]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:559][476]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:660][482]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:676][483]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:693][484]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:710][485]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:726][486]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:742][487]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:760][488]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:777][489]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.31:794][490]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.31:810][491]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.31:827][492]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.31:843][493]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.31:860][494]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:860][494]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.23.31:876][495]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:893][496]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:910][497]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.31:927][498]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:043][505]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:059][506]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:077][507]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:093][508]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:110][509]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:210][515]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:226][516]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:244][517]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:260][518]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.23.32:466][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.23.32:466][528]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.23.32:467][528]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.23.32:486][528]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.23.32:487][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.23.32:490][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.23.32:494][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.23.32:521][528]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2023.12.05-11.23.32:521][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.12.05-11.23.32:524][528]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2023.12.05-11.23.32:651][528]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.12.05-11.23.32:690][529]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2023.12.05-11.29.04:822][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.29.04:965][564]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.29.04:965][564]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacter00B4EB584683B5CCB874D7997EB4733B.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.29.04:981][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 10.2 sec)
+[2023.12.05-11.29.04:990][564]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.29.04:990][564]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.29.05:879][618]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.29.05:885][618]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.05-11.29.06:242][618]LogPlayLevel: [PlayLevel] Compiling BP_MainCharacter before play...
+[2023.12.05-11.29.06:655][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2023.12.05-11.29.06:660][618]LogPlayLevel: PlayLevel: Blueprint regeneration took 773 ms (1 blueprints)
+[2023.12.05-11.29.06:660][618]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:29:06)
+[2023.12.05-11.29.06:660][618]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.29.06:665][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005130s)
+[2023.12.05-11.29.06:665][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.005160s)
+[2023.12.05-11.29.06:665][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.29.06:665][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.29.06:665][618]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.29.06:665][618]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2023.12.05-11.29.06:689][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.12.05-11.29.06:690][618]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2023.12.05-11.29.06:691][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.29.06:691][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.29.06:691][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.29.06:691][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.29.06:691][618]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.29.06:691][618]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.29.06:691][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.29.06:691][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.29.06:691][618]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.29.06:691][618]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.29.06:691][618]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.29.06:693][618]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.29.06:868][618]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.29.06:868][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.29.06:868][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.29.06:868][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.29.06:869][618]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2023.12.05-11.29.06:869][618]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2023.12.05-11.29.06:870][618]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2023.12.05-11.29.06:870][618]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2023.12.05-11.29.06:870][618]LogInit: FAudioDevice initialized with ID 17.
+[2023.12.05-11.29.06:870][618]LogAudio: Display: Audio Device (ID: 17) registered with world 'MultiplayerArena'.
+[2023.12.05-11.29.06:870][618]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2023.12.05-11.29.06:933][618]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.29.06:933][618]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.29.06:935][618]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.29.06
+[2023.12.05-11.29.06:936][618]LogWorld: Bringing up level for play took: 0.002280
+[2023.12.05-11.29.06:937][618]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2023.12.05-11.29.06:940][618]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.29.06:940][618]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.29.06:940][618]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.29.06:941][618]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.29.06:942][618]PIE: Server logged in
+[2023.12.05-11.29.06:942][618]PIE: Play in editor total start time 1.057 seconds.
+[2023.12.05-11.29.07:070][618]LogViewport: Scene viewport resized to 1651x1330, mode Windowed.
+[2023.12.05-11.29.17:810][258]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:825][259]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:842][260]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:859][261]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:875][262]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:893][263]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:910][264]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:925][265]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:943][266]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.17:959][267]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.18:796][317]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.29.22:078][514]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:092][515]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:109][516]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:126][517]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:143][518]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:159][519]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:176][520]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:192][521]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:209][522]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:226][523]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:877][562]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:894][563]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:910][564]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:927][565]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:943][566]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:959][567]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:975][568]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.22:993][569]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:010][570]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:026][571]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:042][572]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:060][573]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.29.23:259][585]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:276][586]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:293][587]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:309][588]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:326][589]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:343][590]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:359][591]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:510][600]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:526][601]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:542][602]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:559][603]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:576][604]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:693][611]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:709][612]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:726][613]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:742][614]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:759][615]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:776][616]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:792][617]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:909][624]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:927][625]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:943][626]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:959][627]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:975][628]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.23:994][629]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:109][636]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:126][637]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:143][638]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:159][639]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:176][640]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:193][641]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:210][642]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:229][643]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:244][644]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:245][644]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.29.24:310][648]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:326][649]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:343][650]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:360][651]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:377][652]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:393][653]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:409][654]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:426][655]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:574][663]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:591][664]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:607][665]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:625][666]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:641][667]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:657][668]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:742][673]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:757][674]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:774][675]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:790][676]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:807][677]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:824][678]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:957][686]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:975][687]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.24:991][688]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:007][689]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:025][690]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:041][691]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:158][698]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:174][699]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:191][700]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:208][701]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:226][702]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:310][707]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.29.25:360][710]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:374][711]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:391][712]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:409][713]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:424][714]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:440][715]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:458][716]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:474][717]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:524][720]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:541][721]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:562][722]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:573][723]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:592][724]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:608][725]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.25:626][726]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:342][769]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.29.26:408][773]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:424][774]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:441][775]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:457][776]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:474][777]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:490][778]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:508][779]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:641][787]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:657][788]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:674][789]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:691][790]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:708][791]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:759][794]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:774][795]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:791][796]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:808][797]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:824][798]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:840][799]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:858][800]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:874][801]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:958][806]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:975][807]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.26:990][808]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:009][809]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:024][810]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:041][811]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:124][816]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:141][817]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:158][818]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:175][819]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:191][820]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:208][821]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:308][827]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:324][828]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:341][829]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:357][830]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:375][831]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:391][832]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:392][832]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.29.27:408][833]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:425][834]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:480][837]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:490][838]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:508][839]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:524][840]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:541][841]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:557][842]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:578][843]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:591][844]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:691][850]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:708][851]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:724][852]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:741][853]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:758][854]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:774][855]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:791][856]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:908][863]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:925][864]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:942][865]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:958][866]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:975][867]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.27:992][868]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:392][892]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.29.28:725][912]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:742][913]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:758][914]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:775][915]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:791][916]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:809][917]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:825][918]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:841][919]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:859][920]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.28:875][921]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.29.29:711][971]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.29.30:278][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.29.30:278][  3]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.29.30:279][  3]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.29.30:293][  3]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.29.30:294][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.29.30:297][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.29.30:303][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.29.30:331][  3]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2023.12.05-11.29.30:331][  3]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.12.05-11.29.30:333][  3]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2023.12.05-11.29.30:462][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2023.12.05-11.29.30:483][  4]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2023.12.05-11.29.35:188][275]LogDerivedDataCache: C:/Users/tommy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:15.133 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 8195 files in 10507 folders with total size 395 MiB.
+[2023.12.05-11.29.40:069][547]LogSlate: Window 'BP_MainCharacter' being destroyed
+[2023.12.05-11.29.49:821][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.29.49:964][128]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.29.49:964][128]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacter9072F0A04D5C886D77B2B180B478F240.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.29.49:977][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 156 ms (total: 10.4 sec)
+[2023.12.05-11.29.49:981][128]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.29.49:981][128]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.29.55:008][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.29.55:139][422]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.29.55:139][422]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacterA653B6C0410E5E8E2E191EA295D54451.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.29.55:155][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 10.5 sec)
+[2023.12.05-11.29.55:161][422]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.29.55:161][422]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.29.57:568][565]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.29.57:573][565]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.05-11.29.57:911][565]LogPlayLevel: [PlayLevel] Compiling BP_MainCharacter before play...
+[2023.12.05-11.29.58:320][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2023.12.05-11.29.58:325][565]LogPlayLevel: PlayLevel: Blueprint regeneration took 751 ms (1 blueprints)
+[2023.12.05-11.29.58:325][565]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:29:58)
+[2023.12.05-11.29.58:325][565]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.29.58:330][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004836s)
+[2023.12.05-11.29.58:330][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.004867s)
+[2023.12.05-11.29.58:330][565]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.29.58:330][565]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.29.58:331][565]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.29.58:331][565]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2023.12.05-11.29.58:353][565]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.12.05-11.29.58:355][565]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2023.12.05-11.29.58:355][565]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.29.58:355][565]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.29.58:355][565]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.29.58:355][565]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.29.58:355][565]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.29.58:355][565]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.29.58:355][565]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.29.58:355][565]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.29.58:355][565]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.29.58:356][565]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.29.58:356][565]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.29.58:358][565]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.29.58:534][565]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.29.58:534][565]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.29.58:534][565]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.29.58:535][565]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.29.58:535][565]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2023.12.05-11.29.58:535][565]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2023.12.05-11.29.58:536][565]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2023.12.05-11.29.58:536][565]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2023.12.05-11.29.58:536][565]LogInit: FAudioDevice initialized with ID 18.
+[2023.12.05-11.29.58:536][565]LogAudio: Display: Audio Device (ID: 18) registered with world 'MultiplayerArena'.
+[2023.12.05-11.29.58:537][565]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2023.12.05-11.29.58:597][565]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.29.58:597][565]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.29.58:599][565]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.29.58
+[2023.12.05-11.29.58:599][565]LogWorld: Bringing up level for play took: 0.001914
+[2023.12.05-11.29.58:601][565]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2023.12.05-11.29.58:604][565]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.29.58:604][565]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.29.58:604][565]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.29.58:605][565]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.29.58:605][565]PIE: Server logged in
+[2023.12.05-11.29.58:606][565]PIE: Play in editor total start time 1.032 seconds.
+[2023.12.05-11.29.58:726][565]LogViewport: Scene viewport resized to 1654x1350, mode Windowed.
+[2023.12.05-11.30.15:369][556]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.30.15:369][556]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.30.15:370][556]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.30.15:395][556]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.30.15:395][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.30.15:397][556]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.30.15:403][556]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.30.15:433][556]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2023.12.05-11.30.15:433][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.12.05-11.30.15:435][556]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2023.12.05-11.30.15:562][556]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.12.05-11.30.15:576][557]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2023.12.05-11.30.22:908][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.30.23:038][959]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.30.23:039][959]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacterABB474EA4C799B75EDD4BB9103396441.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.30.23:052][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 144 ms (total: 10.7 sec)
+[2023.12.05-11.30.23:057][959]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.30.23:057][959]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.30.23:847][  5]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.30.23:853][  5]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.05-11.30.23:863][  5]LogPlayLevel: [PlayLevel] Compiling BP_MainCharacter before play...
+[2023.12.05-11.30.24:284][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.12.05-11.30.24:294][  5]LogPlayLevel: PlayLevel: Blueprint regeneration took 441 ms (1 blueprints)
+[2023.12.05-11.30.24:294][  5]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:30:24)
+[2023.12.05-11.30.24:294][  5]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.30.24:299][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004805s)
+[2023.12.05-11.30.24:299][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.004837s)
+[2023.12.05-11.30.24:299][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.30.24:299][  5]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.30.24:299][  5]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.30.24:300][  5]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2023.12.05-11.30.24:320][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.12.05-11.30.24:321][  5]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2023.12.05-11.30.24:321][  5]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.30.24:321][  5]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.30.24:321][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.30.24:321][  5]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.30.24:321][  5]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.30.24:321][  5]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.30.24:321][  5]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.30.24:321][  5]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.30.24:322][  5]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.30.24:322][  5]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.30.24:322][  5]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.30.24:324][  5]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.30.24:501][  5]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.30.24:501][  5]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.30.24:501][  5]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.30.24:501][  5]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.30.24:502][  5]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2023.12.05-11.30.24:502][  5]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2023.12.05-11.30.24:503][  5]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2023.12.05-11.30.24:503][  5]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2023.12.05-11.30.24:503][  5]LogInit: FAudioDevice initialized with ID 19.
+[2023.12.05-11.30.24:503][  5]LogAudio: Display: Audio Device (ID: 19) registered with world 'MultiplayerArena'.
+[2023.12.05-11.30.24:503][  5]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.05-11.30.24:555][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.30.24:556][  5]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.30.24:557][  5]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.30.24
+[2023.12.05-11.30.24:557][  5]LogWorld: Bringing up level for play took: 0.001790
+[2023.12.05-11.30.24:559][  5]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2023.12.05-11.30.24:562][  5]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.30.24:562][  5]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.30.24:562][  5]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.30.24:563][  5]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.24:563][  5]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.30.24:564][  5]PIE: Server logged in
+[2023.12.05-11.30.24:564][  5]PIE: Play in editor total start time 0.712 seconds.
+[2023.12.05-11.30.24:696][  5]LogViewport: Scene viewport resized to 1657x1370, mode Windowed.
+[2023.12.05-11.30.34:327][579]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.34:327][579]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.34:844][610]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.35:093][625]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.35:110][626]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.35:173][629]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.35:753][664]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.39:507][889]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.39:557][892]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.40:141][927]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.40:175][929]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.40:191][930]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.40:443][945]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.40:492][948]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.40:843][969]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.40:960][976]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.30.41:119][984]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.30.41:119][984]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.30.41:120][984]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.30.41:132][984]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.30.41:133][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.30.41:135][984]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.30.41:138][984]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.30.41:168][984]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2023.12.05-11.30.41:168][984]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.05-11.30.41:169][984]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2023.12.05-11.30.41:297][984]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.12.05-11.30.41:320][985]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2023.12.05-11.30.59:840][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.30.59:969][ 49]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.30.59:970][ 49]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacterFB9C0D6B450376167E15069D5767F65C.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.30.59:985][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 10.8 sec)
+[2023.12.05-11.30.59:989][ 49]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.30.59:989][ 49]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.31.00:595][ 86]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.31.00:601][ 86]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.12.05-11.31.00:611][ 86]LogPlayLevel: [PlayLevel] Compiling BP_MainCharacter before play...
+[2023.12.05-11.31.01:030][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2023.12.05-11.31.01:040][ 86]LogPlayLevel: PlayLevel: Blueprint regeneration took 439 ms (1 blueprints)
+[2023.12.05-11.31.01:040][ 86]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:31:01)
+[2023.12.05-11.31.01:040][ 86]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.31.01:045][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004782s)
+[2023.12.05-11.31.01:045][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.004811s)
+[2023.12.05-11.31.01:045][ 86]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.31.01:045][ 86]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.31.01:045][ 86]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.31.01:045][ 86]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2023.12.05-11.31.01:065][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.12.05-11.31.01:067][ 86]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2023.12.05-11.31.01:067][ 86]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.31.01:067][ 86]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.31.01:067][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.31.01:067][ 86]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.31.01:067][ 86]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.31.01:067][ 86]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.31.01:067][ 86]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.31.01:067][ 86]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.31.01:068][ 86]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.31.01:068][ 86]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.31.01:068][ 86]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.31.01:069][ 86]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.31.01:247][ 86]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.31.01:247][ 86]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.31.01:247][ 86]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.31.01:247][ 86]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.31.01:248][ 86]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2023.12.05-11.31.01:248][ 86]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2023.12.05-11.31.01:250][ 86]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2023.12.05-11.31.01:250][ 86]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2023.12.05-11.31.01:250][ 86]LogInit: FAudioDevice initialized with ID 20.
+[2023.12.05-11.31.01:250][ 86]LogAudio: Display: Audio Device (ID: 20) registered with world 'MultiplayerArena'.
+[2023.12.05-11.31.01:250][ 86]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.05-11.31.01:308][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.31.01:309][ 86]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.31.01:310][ 86]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.31.01
+[2023.12.05-11.31.01:312][ 86]LogWorld: Bringing up level for play took: 0.002187
+[2023.12.05-11.31.01:313][ 86]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2023.12.05-11.31.01:318][ 86]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.31.01:318][ 86]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.31.01:318][ 86]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.31.01:319][ 86]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.01:319][ 86]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.31.01:319][ 86]PIE: Server logged in
+[2023.12.05-11.31.01:320][ 86]PIE: Play in editor total start time 0.719 seconds.
+[2023.12.05-11.31.01:446][ 86]LogViewport: Scene viewport resized to 1660x1390, mode Windowed.
+[2023.12.05-11.31.13:030][776]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.16:779][  1]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.17:897][ 67]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.17:914][ 68]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.17:930][ 69]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.17:947][ 70]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.17:963][ 71]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.17:985][ 72]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.17:996][ 73]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.18:548][106]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.18:879][126]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.20:680][234]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:696][235]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:714][236]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:730][237]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:747][238]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:763][239]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:781][240]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:795][241]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:813][242]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.20:830][243]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:666][293]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.31.21:697][295]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:715][296]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:731][297]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:748][298]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:764][299]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:864][305]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:881][306]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:897][307]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:914][308]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:931][309]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.21:949][310]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.22:033][315]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.22:050][316]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.22:066][317]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.22:083][318]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.22:100][319]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.22:115][320]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.22:133][321]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.22:685][354]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.31.22:983][372]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.23:255][388]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.23:266][389]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:283][390]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:300][391]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:316][392]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:332][393]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:350][394]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:401][397]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.23:418][398]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.23:450][400]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:452][400]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.23:466][401]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:466][401]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.23:483][402]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:484][402]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.23:499][403]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:616][410]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:633][411]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:650][412]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:665][413]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:683][414]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:700][415]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:717][416]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:732][417]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:751][418]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:767][419]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.31.23:867][425]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:883][426]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:900][427]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.23:917][428]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.31.24:252][448]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.31.26:389][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.31.26:389][574]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.31.26:390][574]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.31.26:405][574]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.31.26:407][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.31.26:411][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.31.26:419][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.31.26:451][574]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2023.12.05-11.31.26:451][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.05-11.31.26:453][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2023.12.05-11.31.26:580][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.12.05-11.31.26:621][575]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2023.12.05-11.33.01:048][896]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.33.01:195][896]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.33.01:196][896]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacter5CFD91BC4B49D96E3DD0F187642D73A4.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.33.01:206][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 11.0 sec)
+[2023.12.05-11.33.01:217][896]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.33.01:217][896]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.33.03:925][ 29]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.33.04:080][ 29]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.33.04:080][ 29]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacter4972B74B4AE7FC4C8557258B55C7F269.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.33.04:097][ 29]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 11.2 sec)
+[2023.12.05-11.33.04:101][ 29]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.33.04:101][ 29]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.33.04:558][ 57]BlueprintLog: New page: Compile BP_MainCharacter
+[2023.12.05-11.33.04:692][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2023.12.05-11.33.05:977][108]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.33.05:981][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.05-11.33.05:981][108]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:33:05)
+[2023.12.05-11.33.05:981][108]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.33.05:987][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005130s)
+[2023.12.05-11.33.05:987][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.005165s)
+[2023.12.05-11.33.05:987][108]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.33.05:987][108]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.33.05:988][108]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.33.05:988][108]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2023.12.05-11.33.06:012][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.12.05-11.33.06:022][108]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2023.12.05-11.33.06:022][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.33.06:022][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.33.06:022][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.33.06:022][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.33.06:022][108]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.33.06:022][108]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.33.06:022][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.33.06:022][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.33.06:022][108]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.33.06:022][108]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.33.06:022][108]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.33.06:024][108]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.33.06:200][108]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.33.06:200][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.33.06:200][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.33.06:200][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.33.06:200][108]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2023.12.05-11.33.06:200][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2023.12.05-11.33.06:202][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2023.12.05-11.33.06:202][108]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2023.12.05-11.33.06:202][108]LogInit: FAudioDevice initialized with ID 21.
+[2023.12.05-11.33.06:202][108]LogAudio: Display: Audio Device (ID: 21) registered with world 'MultiplayerArena'.
+[2023.12.05-11.33.06:202][108]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.05-11.33.06:251][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.33.06:252][108]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.33.06:254][108]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.33.06
+[2023.12.05-11.33.06:254][108]LogWorld: Bringing up level for play took: 0.001721
+[2023.12.05-11.33.06:256][108]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2023.12.05-11.33.06:261][108]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.33.06:261][108]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.33.06:261][108]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.33.06:261][108]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.33.06:268][108]PIE: Server logged in
+[2023.12.05-11.33.06:273][108]PIE: Play in editor total start time 0.291 seconds.
+[2023.12.05-11.33.06:284][108]LogViewport: Scene viewport resized to 1663x1410, mode Windowed.
+[2023.12.05-11.33.20:623][963]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:639][964]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:656][965]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:672][966]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:689][967]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:706][968]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:723][969]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:739][970]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:756][971]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:772][972]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.33.20:906][980]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.33.21:607][ 22]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.33.22:330][ 63]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.33.22:330][ 63]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.33.22:331][ 63]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.33.22:355][ 63]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.33.22:356][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.33.22:358][ 63]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.33.22:362][ 63]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.33.22:389][ 63]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.05-11.33.22:390][ 63]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2023.12.05-11.33.22:390][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.05-11.33.22:392][ 63]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2023.12.05-11.33.22:520][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.05-11.33.22:557][ 64]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2023.12.05-11.33.41:235][144]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.33.41:372][144]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.33.41:373][144]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacterCA12F8354718602D8DC4DC88D1F07CAD.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.33.41:389][144]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 11.3 sec)
+[2023.12.05-11.33.41:395][144]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.33.41:395][144]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.34.40:446][588]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.34.40:578][588]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.34.40:579][588]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacter0376BE7D45C9884672E0DE9EFCCC0C86.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.34.40:594][588]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 11.5 sec)
+[2023.12.05-11.34.40:601][588]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.34.40:601][588]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.34.41:640][651]BlueprintLog: New page: Compile BP_MainCharacter
+[2023.12.05-11.34.41:769][651]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.12.05-11.34.42:511][668]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.34.42:516][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.05-11.34.42:516][668]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:34:42)
+[2023.12.05-11.34.42:516][668]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.34.42:521][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005858s)
+[2023.12.05-11.34.42:521][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.005891s)
+[2023.12.05-11.34.42:521][668]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.34.42:521][668]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.34.42:522][668]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.34.42:522][668]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2023.12.05-11.34.42:546][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.12.05-11.34.42:550][668]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2023.12.05-11.34.42:551][668]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.34.42:551][668]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.34.42:551][668]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.34.42:551][668]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.34.42:551][668]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.34.42:551][668]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.34.42:551][668]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.34.42:551][668]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.34.42:551][668]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.34.42:551][668]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.34.42:551][668]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.34.42:553][668]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.34.42:731][668]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.34.42:731][668]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.34.42:731][668]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.34.42:731][668]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.34.42:732][668]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2023.12.05-11.34.42:732][668]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2023.12.05-11.34.42:733][668]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2023.12.05-11.34.42:733][668]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2023.12.05-11.34.42:733][668]LogInit: FAudioDevice initialized with ID 22.
+[2023.12.05-11.34.42:733][668]LogAudio: Display: Audio Device (ID: 22) registered with world 'MultiplayerArena'.
+[2023.12.05-11.34.42:733][668]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.05-11.34.42:804][668]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.34.42:804][668]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.34.42:806][668]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.34.42
+[2023.12.05-11.34.42:806][668]LogWorld: Bringing up level for play took: 0.001780
+[2023.12.05-11.34.42:809][668]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2023.12.05-11.34.42:813][668]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.34.42:813][668]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.34.42:813][668]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.34.42:814][668]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.34.42:819][668]PIE: Server logged in
+[2023.12.05-11.34.42:826][668]PIE: Play in editor total start time 0.31 seconds.
+[2023.12.05-11.34.42:838][668]LogViewport: Scene viewport resized to 1666x1430, mode Windowed.
+[2023.12.05-11.34.57:389][538]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.57:405][539]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.57:421][540]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.57:438][541]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.57:455][542]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.57:471][543]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.57:488][544]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.57:505][545]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.57:521][546]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:188][586]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:204][587]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:221][588]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:238][589]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:254][590]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:271][591]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:288][592]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:305][593]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:321][594]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:355][596]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:371][597]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:373][597]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.34.58:388][598]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:405][599]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:421][600]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:438][601]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:454][602]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:472][603]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:588][610]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:605][611]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:622][612]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:638][613]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:655][614]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:788][622]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:805][623]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:821][624]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:838][625]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:854][626]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:870][627]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:955][632]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:971][633]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.58:988][634]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:004][635]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:021][636]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:037][637]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:055][638]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:155][644]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:172][645]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:188][646]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:204][647]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:221][648]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:238][649]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:355][656]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:371][657]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:373][657]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.34.59:387][658]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:405][659]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:422][660]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:555][668]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:571][669]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:587][670]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:605][671]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:622][672]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:738][679]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:755][680]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:771][681]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:787][682]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:805][683]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:822][684]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:922][690]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:938][691]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:955][692]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:971][693]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.34.59:988][694]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:105][701]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:121][702]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:138][703]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:154][704]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:171][705]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:271][711]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:288][712]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:305][713]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:321][714]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:338][715]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.00:373][717]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.35.02:355][836]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2023.12.05-11.35.02:355][836]LogGameState: Match State Changed from InProgress to LeavingMap
+[2023.12.05-11.35.02:355][836]LogNet: Browse: /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena
+[2023.12.05-11.35.02:355][836]LogLoad: LoadMap: /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena
+[2023.12.05-11.35.02:355][836]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.35.02:357][836]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.35.02:358][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.35.02:401][836]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.05-11.35.02:406][836]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.12.05-11.35.02:411][836]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.35.02:415][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004796s)
+[2023.12.05-11.35.02:415][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.004845s)
+[2023.12.05-11.35.02:415][836]LogAudio: Display: Audio Device (ID: 22) registered with world 'MultiplayerArena'.
+[2023.12.05-11.35.02:415][836]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.35.02:415][836]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.35.02:416][836]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.35.02:416][836]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2023.12.05-11.35.02:416][836]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.35.02:417][836]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.35.02
+[2023.12.05-11.35.02:417][836]LogWorld: Bringing up level for play took: 0.001313
+[2023.12.05-11.35.02:419][836]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.35.02:419][836]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.35.02:419][836]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.35.02:420][836]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.35.02:420][836]LogLoad: Took 0.065416 seconds to LoadMap(/Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena)
+[2023.12.05-11.35.13:144][478]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.13:145][478]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.35.13:160][479]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.13:177][480]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.13:194][481]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.13:210][482]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.13:231][483]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.13:243][484]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.13:261][485]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.13:277][486]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.14:129][537]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.35.17:244][724]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:260][725]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:291][726]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:304][727]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:321][728]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:338][729]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:355][730]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:371][731]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:388][732]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:406][733]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:421][734]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:437][735]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:490][738]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.35.17:856][760]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:871][761]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:888][762]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:904][763]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.17:921][764]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:021][770]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:037][771]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:055][772]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:071][773]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:089][774]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:107][775]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:188][780]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:204][781]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:222][782]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:238][783]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:239][783]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.35.18:255][784]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:271][785]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:289][786]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:372][791]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:388][792]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:405][793]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:422][794]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:438][795]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:454][796]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:556][802]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:572][803]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:588][804]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:605][805]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:622][806]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:722][812]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:738][813]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:755][814]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:772][815]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:788][816]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:805][817]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:822][818]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:905][823]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:922][824]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:938][825]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:955][826]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:971][827]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.18:989][828]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:006][829]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:023][830]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:071][833]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:088][834]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:105][835]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:122][836]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:138][837]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:155][838]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:171][839]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:188][840]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:239][843]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.35.19:272][845]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:288][846]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:305][847]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:321][848]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:339][849]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:354][850]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:371][851]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:488][858]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:504][859]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:522][860]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:539][861]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:555][862]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:572][863]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.19:588][864]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.20:257][904]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.35.21:655][988]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2023.12.05-11.35.21:655][988]LogGameState: Match State Changed from InProgress to LeavingMap
+[2023.12.05-11.35.21:655][988]LogNet: Browse: /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena
+[2023.12.05-11.35.21:655][988]LogLoad: LoadMap: /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena
+[2023.12.05-11.35.21:655][988]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.35.21:656][988]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.35.21:657][988]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.35.21:711][988]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.05-11.35.21:715][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.12.05-11.35.21:720][988]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.35.21:725][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004751s)
+[2023.12.05-11.35.21:725][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.004795s)
+[2023.12.05-11.35.21:725][988]LogAudio: Display: Audio Device (ID: 22) registered with world 'MultiplayerArena'.
+[2023.12.05-11.35.21:725][988]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.35.21:725][988]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.35.21:725][988]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.35.21:725][988]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2023.12.05-11.35.21:725][988]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.35.21:726][988]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.35.21
+[2023.12.05-11.35.21:727][988]LogWorld: Bringing up level for play took: 0.001383
+[2023.12.05-11.35.21:728][988]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.35.21:728][988]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.35.21:728][988]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.35.21:729][988]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.35.21:729][988]LogLoad: Took 0.074643 seconds to LoadMap(/Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena)
+[2023.12.05-11.35.36:037][845]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:054][846]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:071][847]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:087][848]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:105][849]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:122][850]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:137][851]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:272][859]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:287][860]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:289][860]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.35.36:304][861]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:321][862]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:339][863]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:355][864]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:376][865]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:387][866]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:489][872]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:505][873]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:542][874]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:551][875]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:567][876]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:684][883]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:700][884]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:717][885]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:733][886]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:750][887]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:866][894]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:883][895]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:901][896]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:917][897]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:934][898]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.36:951][899]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.37:036][904]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.35.37:384][925]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.37:401][926]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.37:417][927]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.37:434][928]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.37:451][929]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.37:467][930]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.37:484][931]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.35.37:770][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.35.37:770][946]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.35.37:771][946]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.35.37:789][946]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.35.37:790][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.35.37:793][946]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.35.37:797][946]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.35.37:823][946]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2023.12.05-11.35.37:823][946]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.05-11.35.37:825][946]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2023.12.05-11.35.37:951][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.12.05-11.35.37:970][947]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2023.12.05-11.36.09:914][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.36.10:023][818]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.36.10:023][818]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacterC93AE0714C218B4F8F5823A3F106AF8A.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.36.10:036][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 11.6 sec)
+[2023.12.05-11.36.10:044][818]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.36.10:044][818]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.36.10:793][863]BlueprintLog: New page: Compile BP_MainCharacter
+[2023.12.05-11.36.10:999][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2023.12.05-11.36.35:425][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.36.35:547][160]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.36.35:547][160]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacter962913734ECAD8C3758C38B75AE714DF.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.36.35:567][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 11.7 sec)
+[2023.12.05-11.36.35:573][160]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.36.35:573][160]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.36.36:246][201]BlueprintLog: New page: Compile BP_MainCharacter
+[2023.12.05-11.36.36:392][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.12.05-11.36.36:999][210]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.36.37:005][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.05-11.36.37:005][210]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:36:37)
+[2023.12.05-11.36.37:005][210]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.36.37:010][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004955s)
+[2023.12.05-11.36.37:010][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.004990s)
+[2023.12.05-11.36.37:010][210]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.36.37:010][210]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.36.37:010][210]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.36.37:011][210]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2023.12.05-11.36.37:035][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.12.05-11.36.37:039][210]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2023.12.05-11.36.37:039][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.36.37:039][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.36.37:039][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.36.37:039][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.36.37:039][210]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.36.37:039][210]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.36.37:039][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.36.37:039][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.36.37:040][210]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.36.37:040][210]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.36.37:040][210]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.36.37:041][210]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.36.37:218][210]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.36.37:218][210]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.36.37:218][210]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.36.37:218][210]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.36.37:219][210]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2023.12.05-11.36.37:219][210]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2023.12.05-11.36.37:221][210]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2023.12.05-11.36.37:221][210]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2023.12.05-11.36.37:221][210]LogInit: FAudioDevice initialized with ID 23.
+[2023.12.05-11.36.37:221][210]LogAudio: Display: Audio Device (ID: 23) registered with world 'MultiplayerArena'.
+[2023.12.05-11.36.37:221][210]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.05-11.36.37:276][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.36.37:276][210]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.36.37:277][210]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.36.37
+[2023.12.05-11.36.37:279][210]LogWorld: Bringing up level for play took: 0.001902
+[2023.12.05-11.36.37:281][210]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2023.12.05-11.36.37:285][210]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.36.37:285][210]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.36.37:285][210]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.36.37:286][210]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.36.37:292][210]PIE: Server logged in
+[2023.12.05-11.36.37:297][210]PIE: Play in editor total start time 0.293 seconds.
+[2023.12.05-11.36.37:310][210]LogViewport: Scene viewport resized to 1669x1450, mode Windowed.
+[2023.12.05-11.36.49:994][931]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:010][932]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:027][933]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:044][934]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:060][935]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:077][936]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:077][936]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.36.50:093][937]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:094][937]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.36.50:111][938]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:126][939]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:144][940]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:160][941]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.50:161][941]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.36.50:979][990]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.36.53:277][128]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:293][129]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:310][130]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:327][131]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:343][132]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:361][133]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:376][134]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:393][135]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:411][136]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:427][137]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:444][138]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:446][138]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.36.53:460][139]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:462][139]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.36.53:477][140]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:493][141]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:612][148]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.36.53:927][167]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:944][168]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:960][169]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:977][170]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.53:993][171]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:010][172]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:027][173]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:044][174]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:110][178]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:127][179]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:144][180]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:161][181]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:177][182]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:194][183]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:210][184]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:261][187]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.36.54:310][190]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:327][191]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:343][192]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:360][193]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:377][194]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:394][195]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:411][196]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:494][201]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:510][202]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:526][203]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:544][204]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:560][205]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:577][206]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:693][213]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:711][214]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:727][215]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:744][216]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:760][217]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:877][224]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:894][225]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:911][226]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:927][227]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.54:944][228]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.55:061][235]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.55:077][236]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.55:094][237]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.55:111][238]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.55:127][239]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.55:227][245]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.55:244][246]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.36.55:295][249]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.36.55:361][251]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.36.55:361][251]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.36.55:361][251]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.36.55:379][251]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.36.55:381][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.36.55:384][251]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.36.55:391][251]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.36.55:419][251]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.05-11.36.55:421][251]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2023.12.05-11.36.55:421][251]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.05-11.36.55:423][251]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2023.12.05-11.36.55:549][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.12.05-11.36.55:564][252]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2023.12.05-11.37.38:239][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.37.38:382][737]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.37.38:383][737]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacterD7D96F3C417909923C6D7A91400FBB9A.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.37.38:398][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 11.9 sec)
+[2023.12.05-11.37.38:405][737]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.37.38:405][737]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
+[2023.12.05-11.37.39:948][828]BlueprintLog: New page: Compile BP_MainCharacter
+[2023.12.05-11.37.40:080][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.12.05-11.37.42:741][959]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.05-11.37.42:747][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.05-11.37.42:747][959]PIE: New page: PIE session: MultiplayerArena (2023年12月4日 下午11:37:42)
+[2023.12.05-11.37.42:747][959]LogPlayLevel: Creating play world package: /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.37.42:752][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005346s)
+[2023.12.05-11.37.42:752][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BMMCSystem/Maps/Multiplayer/MultiplayerArena.MultiplayerArena to /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena (0.005392s)
+[2023.12.05-11.37.42:752][959]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.05-11.37.42:752][959]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.05-11.37.42:753][959]LogAIModule: Creating AISystem for world MultiplayerArena
+[2023.12.05-11.37.42:753][959]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2023.12.05-11.37.42:777][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.12.05-11.37.42:783][959]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2023.12.05-11.37.42:783][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.05-11.37.42:783][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.05-11.37.42:783][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.05-11.37.42:783][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.05-11.37.42:783][959]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.12.05-11.37.42:783][959]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.05-11.37.42:783][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.12.05-11.37.42:783][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.05-11.37.42:784][959]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.05-11.37.42:784][959]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.05-11.37.42:784][959]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.05-11.37.42:785][959]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.05-11.37.42:961][959]LogAudioMixer: Display: Using Audio Hardware Device 耳机 (Realtek(R) Audio)
+[2023.12.05-11.37.42:961][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.05-11.37.42:961][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.05-11.37.42:961][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.05-11.37.42:962][959]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2023.12.05-11.37.42:963][959]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2023.12.05-11.37.42:964][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2023.12.05-11.37.42:964][959]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2023.12.05-11.37.42:964][959]LogInit: FAudioDevice initialized with ID 24.
+[2023.12.05-11.37.42:964][959]LogAudio: Display: Audio Device (ID: 24) registered with world 'MultiplayerArena'.
+[2023.12.05-11.37.42:964][959]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.05-11.37.43:012][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.37.43:012][959]LogLoad: Game class is 'BP_GM_Multiplayer_C'
+[2023.12.05-11.37.43:014][959]LogWorld: Bringing World /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena.MultiplayerArena up for play (max tick rate 60) at 2023.12.05-05.37.43
+[2023.12.05-11.37.43:014][959]LogWorld: Bringing up level for play took: 0.001876
+[2023.12.05-11.37.43:016][959]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2023.12.05-11.37.43:019][959]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.37.43:019][959]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.05-11.37.43:019][959]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.37.43:020][959]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.05-11.37.43:027][959]PIE: Server logged in
+[2023.12.05-11.37.43:033][959]PIE: Play in editor total start time 0.286 seconds.
+[2023.12.05-11.37.43:044][959]LogViewport: Scene viewport resized to 1672x1468, mode Windowed.
+[2023.12.05-11.37.55:527][703]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:545][704]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:560][705]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:577][706]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:593][707]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:610][708]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:610][708]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.37.55:627][709]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:644][710]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:660][711]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:677][712]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.55:693][713]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.56:514][762]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.37.58:662][891]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:678][892]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:696][893]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:713][894]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:728][895]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:746][896]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:762][897]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:763][897]LogBlueprintUserMessages: [BP_MainCharacter_C_0] Hello
+[2023.12.05-11.37.58:779][898]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:796][899]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:947][908]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:962][909]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:978][910]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.58:995][911]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:012][912]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:145][920]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:163][921]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:178][922]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:195][923]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:213][924]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:229][925]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:328][931]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:346][932]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:362][933]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:384][934]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:395][935]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:412][936]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:429][937]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:512][942]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:529][943]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:545][944]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:562][945]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:578][946]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:596][947]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:612][948]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:648][950]LogBlueprintUserMessages: [CombatStateHandling] Done summer
+[2023.12.05-11.37.59:698][953]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:712][954]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:729][955]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:746][956]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:762][957]LogBlueprintUserMessages: [CombatStateHandling] Fall
+[2023.12.05-11.37.59:921][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.05-11.37.59:921][965]LogWorld: BeginTearingDown for /Game/BMMCSystem/Maps/Multiplayer/UEDPIE_0_MultiplayerArena
+[2023.12.05-11.37.59:922][965]LogSlate: Window 'BasicMultiplayerMeleeComb Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5)' being destroyed
+[2023.12.05-11.37.59:932][965]LogWorld: UWorld::CleanupWorld for MultiplayerArena, bSessionEnded=true, bCleanupResources=true
+[2023.12.05-11.37.59:933][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.37.59:935][965]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.05-11.37.59:939][965]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.05-11.37.59:965][965]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.05-11.37.59:967][965]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2023.12.05-11.37.59:967][965]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.05-11.37.59:968][965]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2023.12.05-11.38.00:098][965]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.12.05-11.38.00:117][966]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2023.12.05-11.38.00:950][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.05-11.38.01:066][ 16]LogSavePackage: Moving output files for package: /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter
+[2023.12.05-11.38.01:066][ 16]LogSavePackage: Moving '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Saved/BP_MainCharacter48B5461C4CA1A7E92201CABA1EAEC6B2.tmp' to '../../../../../../Users/tommy/Documents/GitHub/Minesweeper_Demo/Content/BMMCSystem/Blueprints/Character/BP_MainCharacter.uasset'
+[2023.12.05-11.38.01:084][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 12.0 sec)
+[2023.12.05-11.38.01:091][ 16]AssetCheck: New page: Asset Save: BP_MainCharacter
+[2023.12.05-11.38.01:091][ 16]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/BMMCSystem/Blueprints/Character/BP_MainCharacter.BP_MainCharacter
